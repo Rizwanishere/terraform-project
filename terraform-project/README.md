@@ -14,8 +14,13 @@ Step 4: Select the file types that you want Git-lfs to manage using the command 
 Step 5: Add the .gitattributes file along with other files which need to be committed and push the changes.
 
 git init
+
 git lfs track terraform.tf
+
 git add .gitattributes terraform.tf
+
 git commit -m "Adding tf using lfs"
+
 git branch -M main
+
 git push origin main
