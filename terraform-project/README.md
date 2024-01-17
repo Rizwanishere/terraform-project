@@ -2,6 +2,7 @@ Step 1: Download and Install Git-lfs ( Git Large File Storage(more than 100MB) )
 Linux(ubuntu)
 
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+
 sudo apt-get install git-lfs
 
 Step 2: Setup Git lfs for your user account git lfs install.
